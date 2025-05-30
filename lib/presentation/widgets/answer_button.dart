@@ -4,7 +4,7 @@ import 'package:stroll/core/utils/constants.dart';
 import 'package:stroll/core/values/color.dart';
 import 'package:stroll/core/values/enum.dart';
 
-import 'selectable_box.dart';
+
 
 class AnswerBoxes extends StatelessWidget {
 
@@ -21,8 +21,8 @@ class AnswerBoxes extends StatelessWidget {
     required this.onTap,
     this.selectedColor = Colors.blue,
     this.unselectedColor = Colors.grey,
-    Key? key, required this.option,
-  }) : super(key: key);
+    super.key, required this.option,
+  });
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
