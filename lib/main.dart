@@ -1,3 +1,5 @@
+import 'package:device_preview/device_preview.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stroll/core/theme/app_theme.dart';
@@ -16,10 +18,10 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
         designSize: const Size(375, 812),
         minTextAdapt: true,
-        splitScreenMode: true,
       builder: (_ , child) {
         return MaterialApp(
           title: 'Stroll',
+          debugShowCheckedModeBanner: false,
           theme:AppTheme.darkTheme,
           darkTheme: AppTheme.darkTheme,
           home: child,

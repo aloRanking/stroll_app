@@ -58,9 +58,9 @@ class AnswerBoxes extends StatelessWidget {
               width: 20.h,
               height: 20.h,
               decoration: BoxDecoration(
-                color: isSelected ? selectedColor : unselectedColor,
+                color: isSelected ? kPrimaryColor : unselectedColor,
                 shape: BoxShape.circle,
-                border: Border.all(color: isSelected ? selectedColor : Color(0xffC4C4C4), width: 2)
+                border: Border.all(color: isSelected ? kPrimaryColor : Color(0xffC4C4C4), width: 1)
               ),
 
               child: Stack(
@@ -71,7 +71,7 @@ class AnswerBoxes extends StatelessWidget {
                 height: 19.h,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: isSelected ? selectedColor : Color(0xff232A2E),
+                  color: isSelected ? kPrimaryColor : Color(0xff232A2E),
                   shape: BoxShape.circle,
                 ),
                   child:Text(option.name,
