@@ -18,8 +18,11 @@ Implemented the “Favorite Time of Day” question screen.
  
 Screenshots
 
-<img src="screenshot/stroll_feed.png" alt="Bonfire UI" width="200", height="300"/>
+
+# Android
+<img src="screenshot/stroll_feed.png" alt="Android Bonfire UI" width="300" height="550"/>
+
+# iOS
+<img src="screenshot/stroll_feed_ios.png" alt="iOS Bonfire UI" width="300" height="550"/>
 
 
-
-![Bonfire UI Android](screenshot/stroll_feed_ios.png)
