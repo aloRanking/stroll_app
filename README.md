@@ -16,7 +16,10 @@ Implemented the “Favorite Time of Day” question screen.
 	•	Framework: Flutter
 	•	Design Tools: Figma
  
-Screenshot
-![Bonfire UI Android](screenshot/stroll_feed.png)
+Screenshots
+
+<img src="screenshot/stroll_feed.png" alt="Bonfire UI" width="200", height="300"/>
+
+
 
 ![Bonfire UI Android](screenshot/stroll_feed_ios.png)
