@@ -17,6 +17,6 @@ Implemented the “Favorite Time of Day” question screen.
 	•	Design Tools: Figma
  
 Screenshot
-![Bonfire UI Android](screenshots/stroll_feed.png)
+![Bonfire UI Android](screenshot/stroll_feed.png)
 
-![Bonfire UI Android](screenshots/stroll_feed_ios.png)
+![Bonfire UI Android](screenshot/stroll_feed_ios.png)
