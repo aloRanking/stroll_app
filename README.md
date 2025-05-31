@@ -1,16 +1,22 @@
 # stroll
+Task Overview
 
-A new Flutter project.
+Implemented the “Favorite Time of Day” question screen.
 
-## Getting Started
+🔨 What Was Done
+	•	Created a clean and intuitive UI matching the Stroll design system.
+	• Built a responsive layout that works across screen sizes (flutter_screenutil).
+  • Scrollable screen for small screen size phones.
+	• Implemented selection highlighting (state-based UI for option selection).
+	•	Added time-left and participant count indicators.
+	•	Integrated placeholder for voice input (microphone button).
+	•	Ensured accessibility and theme consistency (dark mode).
 
-This project is a starting point for a Flutter application.
+ Tech Stack
+	•	Framework: Flutter
+	•	Design Tools: Figma
+ 
+Screenshot
+![Bonfire UI Android](screenshots/stroll_feed.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Bonfire UI Android](screenshots/stroll_feed_ios.png)
